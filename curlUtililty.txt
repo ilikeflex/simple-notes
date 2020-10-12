@@ -1,0 +1,23 @@
+
+1.
+First you have to convert .jks into .p12 format.
+keytool -importkeystore -srckeystore wso2carbon.jks -destkeystore wso2carbon.p12 -deststoretype PKCS12 
+
+2.
+Get Private Key
+openssl pkcs12 -in wso2carbon.p12 -nodes -nocerts -out private.key
+
+2.
+Get Public Key
+openssl pkcs12 -in wso2carbon.p12 -nokeys -out public-cert-file
+
+3.
+curl -vvk --key ./private.key --cacert ./public-cert-file --cert ./public-cert-file -X POST "url" -d '@data.json' -H 'key: value' 
+-H 'Contect-Type: application/json' 
+
+
+https://thecodebarbarian.com/what-javascript-developers-should-know-about-curl.html
+https://www.shellhacks.com/curl-add-header-multiple-headers-authorization/
+https://www.ibm.com/support/pages/how-export-private-key-and-public-key-keystore
+https://medium.com/@gayanmadusanka_80721/how-to-export-private-key-from-java-keystore-791d0027cfe1
+
