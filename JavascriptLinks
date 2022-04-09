@@ -1,0 +1,28 @@
+Difference Between Arrow Function and Normal function
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+
+Scoping
+https://dmitripavlutin.com/javascript-scope/
+
+
+https://www.programiz.com/javascript/variable-scope
+Note: In JavaScript, var is function scoped and let is block-scoped.
+
+
+https://namitamalik.github.io/throttleTime-vs-debounceTime-in-RxJS/
+
+var obj = {
+    count : 10,
+    doSomethingLater : function (){
+        console.log('print value for ' + count); 
+    }
+}
+
+react-chartjs-2 ( React Chart JS Library )
+
+Usecallback React Hooks
+https://www.youtube.com/watch?v=_AyFP5s69N4
+https://medium.com/@dev_one/how-to-use-usecallback-hook-35dc047aee48
+
+Hire React Native Developers
+https://digibharata.com/hire-react-native-developers/?ref=hackernoon.com
