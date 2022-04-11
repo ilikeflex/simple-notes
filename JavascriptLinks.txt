@@ -23,6 +23,9 @@ react-chartjs-2 ( React Chart JS Library )
 Usecallback React Hooks
 https://www.youtube.com/watch?v=_AyFP5s69N4
 https://medium.com/@dev_one/how-to-use-usecallback-hook-35dc047aee48
+useMemo - > memorizes the value
+useCallBack -> memorizes the function
 
 Hire React Native Developers
 https://digibharata.com/hire-react-native-developers/?ref=hackernoon.com
+
