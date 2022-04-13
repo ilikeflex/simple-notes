@@ -26,3 +26,4 @@ DNS
 
 ![This is an image](/assets/DNS.png)
 https://aws.amazon.com/route53/what-is-dns/
+top-level domain (TLD)
