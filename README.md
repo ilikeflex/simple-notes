@@ -16,3 +16,7 @@ Elastic Search
 ![This is an image](/assets/elasticSearch.png)
 https://www.youtube.com/watch?v=ZP0NmfyfsoM
 
+CDN
+![This is an image](/assets/CDN.png)
+https://imagekit.io/blog/what-is-content-delivery-network-cdn-guide/
+
