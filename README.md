@@ -21,3 +21,8 @@ CDN
 ![This is an image](/assets/CDN.png)
 https://imagekit.io/blog/what-is-content-delivery-network-cdn-guide/
 
+
+DNS
+
+![This is an image](/assets/DNS.png)
+https://aws.amazon.com/route53/what-is-dns/
