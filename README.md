@@ -1,5 +1,5 @@
-# simple-excercise
-This basic application shows promises used in angular. Verion of Angular is 1.4.9 
+# simple-notes
+
 
 React Cheat Sheet
 https://tapajyoti-bose.medium.com/react-cheat-sheet-with-react-18-99c4662203bb
