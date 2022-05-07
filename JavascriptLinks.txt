@@ -29,3 +29,5 @@ useCallBack -> memorizes the function
 Hire React Native Developers
 https://digibharata.com/hire-react-native-developers/?ref=hackernoon.com
 
+The difference between x++ and ++x
+https://dev.to/somedood/the-difference-between-x-and-x-44dl#:~:text=The%20only%20difference%20between%20the%20two%20is%20their,and%20spread%20your%20newfound%20knowledge%20to%20the%20world%21?msclkid=9973db89ce5d11ecb57c5f5afca761f4
