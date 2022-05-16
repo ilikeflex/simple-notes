@@ -1,0 +1,23 @@
+function getAllPrime(lowerRange,upperRange) {
+	
+	let result = [];
+
+	for( let x = lowerRange ; x < upperRange ; ++x ) {
+
+		let isPrime = true;
+		for( let y = 2 ; y < x ; ++y ) {
+			if ( x % y === 0){
+				isPrime	= false;
+				break;
+			}
+		}	
+		if(isPrime){
+			result[result.length] = x		
+		}
+			
+	}
+	
+	return result;
+}
+
+console.log(getAllPrime(2,8));
