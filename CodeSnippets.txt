@@ -22,7 +22,7 @@ function getAllPrime(lowerRange,upperRange) {
 
 console.log(getAllPrime(2,8));
 
-
+*********************************************************************
 function getAllArmstrongNumbers(lowerRange,upperRange) {
 	let result = [];
 	for( let x = lowerRange ; x < upperRange ; ++x ) {
