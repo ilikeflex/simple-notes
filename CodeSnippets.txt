@@ -21,3 +21,45 @@ function getAllPrime(lowerRange,upperRange) {
 }
 
 console.log(getAllPrime(2,8));
+
+
+function getAllArmstrongNumbers(lowerRange,upperRange) {
+	let result = [];
+	for( let x = lowerRange ; x < upperRange ; ++x ) {
+		//get number of digits
+		let y = x;
+		let count = 0;
+		while (y > 0)  {
+		
+			y = Math.floor(y / 10);
+			++count;
+			//console.log(`y=${y}`);
+			
+			if( y === 0 )
+			break;
+		}
+		
+		//console.log(`Number=${x}, Number of Digits = ${count}`);
+		
+		y = x;
+		let cal = 0;
+		while (y > 0)  {
+		
+			
+			let rem = y % 10;
+			y = y - rem;
+			y = Math.floor(y / 10);
+			cal = cal + Math.pow(rem,count);
+			
+			//console.log(`Digit = ${x}, cal=${cal}, rem=${rem}`);
+		}
+		
+		if( cal === x )
+			result[result.length] = x;
+	}
+	
+	return result;
+}
+
+
+console.log(getAllArmstrongNumbers(1,5));
