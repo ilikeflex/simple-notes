@@ -8,3 +8,6 @@ display:Flex is 1 Dimensional
 
 display:Grid is 2 Dimensional
 ![This is an image](/assets/2D.png)
+
+You can find some useful stuff
+https://tutsplus.com/authors/anna-monus?_ga=2.259849994.1252622545.1677128625-1764626989.1677128625
