@@ -31,4 +31,5 @@ top-level domain (TLD)
 Javs Script
 
 ![This is an image](/assets/iterateeFirst.png).
+
 'iteratee-first,data-last' design pattern used in lodash/fp.
