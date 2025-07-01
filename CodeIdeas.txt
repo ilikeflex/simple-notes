@@ -1,0 +1,22 @@
+Idea 1:
+/*
+Ability to chose from different components based on the id. These id is dynamic and can be passed from props to select the component. Props are also passed to the component.
+*/
+
+const components = {
+  [ID1]: (props) => <NewComponent1 {...props} />,
+  [ID2]: (props) => <NewComponent2 {...props} />,
+};
+
+
+render(){
+	const { selectedSection } = this.props;
+    
+	const componentProps = {
+      isReadOnly: yes
+    };
+	
+	return (
+		components[selectedSelection](componentProps)
+	);
+}
